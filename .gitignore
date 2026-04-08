@@ -130,7 +130,11 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-
+# Local pip --target installs and ad-hoc test venvs (not part of upstream workflow)
+.pypath/
+.venv-runtest/
+CHANGES_VS_UPSTREAM.md
+test/registered/unit/MIRROR_CI_TEST_REPORT.md
 # Spyder project settings
 .spyderproject
 .spyproject
